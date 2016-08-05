@@ -1,9 +1,9 @@
 <?php
 //Discuz! cache file, DO NOT modify me!
-//Identify: f0c8af42c304abff1afd8e60d7727a2e
+//Identify: d14d8692087d85c7e2b2236fabdade81
 
 $domain = array (
-  'defaultindex' => 'forum.php',
+  'defaultindex' => 'http://localhost/discuz32/portal.php?mod=list&catid=6',
   'holddomain' => 'www|*blog*|*space*|*bbs*',
   'list' => 
   array (
@@ -12,9 +12,10 @@ $domain = array (
   array (
     'portal' => '',
     'forum' => '',
+    'mobile' => '',
+    'default' => '',
     'group' => '',
     'home' => '',
-    'default' => '',
   ),
   'root' => 
   array (

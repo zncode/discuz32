@@ -17,6 +17,20 @@ require './source/class/class_core.php';
 
 require './source/function/function_forum.php';
 
+// error_reporting(0); //屏蔽程序中的错误
+
+// //定义Error_Handler函数，作为set_error_handler()函数的第一个参数“回调”
+// function error_handler($error_level,$error_message,$file,$line){
+// 	echo $error_level;exit;
+// 	if($error_level == E_ALL){
+// 		header("Location: http://localhost/discuz32/error.html");
+// 		exit; 		
+// 	}
+// }
+ 
+// //这个才是关键点，把错误的处理交给error_handle()
+// set_error_handler('error_handler');
+
 
 $modarray = array('ajax','announcement','attachment','forumdisplay',
 	'group','image','index','medal','misc','modcp','notice','post','redirect',

@@ -129,8 +129,9 @@ class core
 
 
 	public static function handleError($errno, $errstr, $errfile, $errline) {
+
 		if($errno & DISCUZ_CORE_DEBUG) {
-			discuz_error::system_error($errstr, false, true, false);
+			discuz_error::system_error($errstr, true, true, false);
 		}
 	}
 

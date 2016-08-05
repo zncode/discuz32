@@ -30,6 +30,7 @@ class discuz_error
 
 		if($show) {
 			if(!defined('IN_MOBILE')) {
+
 				discuz_error::show_error('system', "<li>$message</li>", $showtrace, 0);
 			} else {
 				discuz_error::mobile_show_error('system', "<li>$message</li>", $showtrace, 0);
